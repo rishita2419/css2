@@ -1,0 +1,14 @@
+<p>parent works!</p>
+
+
+<h2>    my parent name is {{name}} & city is {{city}} </h2>
+
+
+{{ parent() }}
+
+<input type="text" #txt>
+
+<button (click)="send(txt)" > send </button>
+
+<app-child  [myName]="name" (myCity)="showCity($event)"  > </app-child>
+
