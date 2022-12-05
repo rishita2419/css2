@@ -7,6 +7,7 @@ import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { FormsModule } from '@angular/forms';
 import { PushComponent } from './push/push.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { PushComponent } from './push/push.component';
     ParentComponent,
     ChildComponent,
     PushComponent,
+    FormComponent,
 
   ],
   imports: [
